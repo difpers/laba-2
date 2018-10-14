@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+int a=58;
+return a>20;
+return 0;
+}
