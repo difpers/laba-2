@@ -1,12 +1,22 @@
 #include <iostream>
+
 #include <cmath>
+
 using namespace std;
 
-int main() {
-int a = 541;
-int o= (a/100)%10;
-cout<<o;
-int y = (a/10)%10;
-cout<<y;
+
+bool f( int a)
+
+{
+return a/100%10==5 && a/10%10==4;
+
+
+}
+int main()
+{
+
+cout<< f(846);
+
 return 0;
+
 }
