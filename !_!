@@ -1,10 +1,18 @@
+
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
+bool f( int a)
+
+{
+return a>20;
+
+}
 int main()
 {
-int a=58;
-return a>20;
+cout<<f(16);
 return 0;
+
 }
