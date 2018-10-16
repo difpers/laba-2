@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+int a = 541;
+int o= (a/100)%10;
+cout<<o;
+int y = (a/10)%10;
+cout<<y;
+return 0;
+}
